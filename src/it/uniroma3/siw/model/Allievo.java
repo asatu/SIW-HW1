@@ -16,7 +16,6 @@ import javax.persistence.ManyToOne;
 public class Allievo {
 	
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
 	private int matricola;
 
 	@Column(nullable = false)
